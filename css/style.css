@@ -1,0 +1,47 @@
+/*
+* @Author: Administrator
+* @Date:   2016-12-13 14:50:14
+* @Last Modified by:   Administrator
+* @Last Modified time: 2016-12-14 09:59:43
+*/
+.container{
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+
+.pic-box{
+	width: 5000px;
+	height: 400px;
+	-webkit-transition:1s ease-in-out;
+	margin-left: 0
+}
+
+img{
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+.pages{
+	margin: 0 auto;
+	width: 800px;
+	text-align:center;
+}
+.page{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 10px;
+	line-height: 100%;
+}
+.page:hover{
+	cursor: pointer;
+	background-color: grey;
+}
+.active{
+	background-color: grey;
+}
